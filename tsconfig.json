@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "lib": ["es2017", "dom"],
     "target": "es2017",
+    "moduleResolution": "node",
+    "module": "es6",
+    "sourceMap": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
-    "esModuleInterop": true,
-    "outDir": "build",
-    "rootDir": "src"
+    "esModuleInterop": true
   },
-  "exclude": [
+  "exclude":[
     "node_modules",
     "build"
   ]
