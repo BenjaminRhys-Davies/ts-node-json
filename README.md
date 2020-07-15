@@ -63,7 +63,7 @@ Eg. 'npm run start -- report ./json'
 
 ## Custom extension
 
-Any non-JSON extension has to be pre-configured within './src/config/{{extension}}.ts' (and imported into './src/main.ts') - please see './src/config/json.ts' for reference
+Any non-JSON extension has to be pre-configured within './src/setup/{{extension}}.ts' (and imported into './src/main.ts') - please see './src/setup/json.ts' for reference
 
 ## LS
 * `npm run start -- ls {{FolderPath}} {{extension}}` - where {{FolderPath}} is a path to a folder and {{extension}} is a file extension
