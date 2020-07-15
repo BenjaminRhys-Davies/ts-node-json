@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  nodecli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ENV_NAME: dev

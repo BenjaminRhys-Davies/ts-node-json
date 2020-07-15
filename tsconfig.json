@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2017",
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "outDir": "build",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
