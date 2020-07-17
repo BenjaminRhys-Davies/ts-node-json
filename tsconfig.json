@@ -5,11 +5,11 @@
     "lib": ["es2017", "dom"],
     "target": "es2017",
     "moduleResolution": "node",
-    "module": "es6",
     "sourceMap": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "module": "commonjs"
   },
   "exclude":[
     "node_modules",
